@@ -1,0 +1,28 @@
+{
+  "name": "Dreams",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dreamtype": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "desc": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
